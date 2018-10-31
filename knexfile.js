@@ -1,7 +1,7 @@
 require('dotenv').config();
 const localPg = {
   host: 'localhost',
-  database: process.env.DB_NAME || 'lambda',  //provess.env.DB_NAME
+  database: 'lambda',  //provess.env.DB_NAME
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
 };
